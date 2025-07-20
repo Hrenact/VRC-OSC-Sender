@@ -1,0 +1,21 @@
+{
+    "name": "OscCore.Editor",
+    "rootNamespace": "",
+    "references": [
+        "OscCore.Runtime",
+        "BlobHandles.Runtime",
+        "NtpTimestamp",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
