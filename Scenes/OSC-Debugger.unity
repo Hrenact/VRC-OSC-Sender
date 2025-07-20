@@ -1663,7 +1663,7 @@ GameObject:
   - component: {fileID: 522650584}
   - component: {fileID: 522650583}
   m_Layer: 0
-  m_Name: Core
+  m_Name: OSC Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4270,6 +4270,7 @@ MonoBehaviour:
   - {fileID: 4283996259923857860, guid: d7963deb819f42047955687da106ccee, type: 3}
   saveButton: {fileID: 1168587052}
   loadButton: {fileID: 299185506}
+  externalObjectWithSender: {fileID: 522650581}
 --- !u!1 &1969456561
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,9 @@ public class PrefabSaveLoadManager : MonoBehaviour
     public Button saveButton;
     public Button loadButton;
 
+    [Header("OSC 发送器引用")]
+    public GameObject externalObjectWithSender;
+
     private string saveFolder => Path.Combine(Application.dataPath, "../SavedData");
     private string savePath => Path.Combine(saveFolder, "data.json");
 
@@ -133,6 +136,9 @@ public class PrefabSaveLoadManager : MonoBehaviour
             var comp = instance.GetComponent<OscCore.PropertyOutputCombined>();
             if (comp != null)
             {
+                if (externalObjectWithSender != null)
+                comp.m_Sender = externalObjectWithSender.GetComponent<OscCore.OscSender>();
+
                 if (item.hasInputField)
                     comp.SetInputText(item.inputText);
 
