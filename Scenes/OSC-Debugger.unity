@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 299185506}
   - component: {fileID: 299185505}
   m_Layer: 5
-  m_Name: Load
+  m_Name: Export
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -944,7 +944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -145, y: -20}
+  m_AnchoredPosition: {x: -195, y: -20}
   m_SizeDelta: {x: 50, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &299185505
@@ -1005,19 +1005,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299185507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1793873939}
-        m_TargetAssemblyTypeName: PrefabSaveLoadManager, Assembly-CSharp
-        m_MethodName: LoadDataFromFile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &299185507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,8 +1919,8 @@ RectTransform:
   - {fileID: 72986725}
   - {fileID: 1420330169}
   - {fileID: 1664033322}
-  - {fileID: 1168587050}
   - {fileID: 299185504}
+  - {fileID: 1168587050}
   - {fileID: 807119336}
   - {fileID: 1481320476}
   m_Father: {fileID: 0}
@@ -2746,7 +2734,7 @@ GameObject:
   - component: {fileID: 1168587052}
   - component: {fileID: 1168587051}
   m_Layer: 5
-  m_Name: Save
+  m_Name: Import
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2769,7 +2757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -195, y: -20}
+  m_AnchoredPosition: {x: -145, y: -20}
   m_SizeDelta: {x: 50, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168587051
@@ -2830,19 +2818,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168587053}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1793873939}
-        m_TargetAssemblyTypeName: PrefabSaveLoadManager, Assembly-CSharp
-        m_MethodName: SaveDataToFile
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1168587053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4268,8 +4244,8 @@ MonoBehaviour:
   - {fileID: 4833181167776502414, guid: 32e43d14e37edc74f8407dd4b7ee2c3f, type: 3}
   - {fileID: 1060166769896269948, guid: c779a285f181a8b43a2bc8f6fa5746c3, type: 3}
   - {fileID: 4283996259923857860, guid: d7963deb819f42047955687da106ccee, type: 3}
-  saveButton: {fileID: 1168587052}
-  loadButton: {fileID: 299185506}
+  saveButton: {fileID: 299185506}
+  loadButton: {fileID: 1168587052}
   externalObjectWithSender: {fileID: 522650581}
 --- !u!1 &1969456561
 GameObject:
