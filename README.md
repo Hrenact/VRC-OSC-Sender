@@ -42,7 +42,7 @@
 
 ## 📜 协议
 本项目基于 **MIT License** 授权。  
-更多详情请参阅 [LICENSE 文件](https://github.com/Hrenact/VRC-OSC-Sender?tab=License-1-ov-file)。
+更多详情请参阅 [LICENSE 文件](https://github.com/Hrenact/VRC-OSC-Sender/blob/main/LICENSE)。
 
 ---
 
